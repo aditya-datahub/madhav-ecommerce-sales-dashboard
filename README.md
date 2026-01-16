@@ -57,7 +57,7 @@ These datasets are structured for analysis and suitable for **portfolio demonstr
 
 ---
 
-## 📊 Key KPIs (As Shown in Dashboard)
+## 📊 Key KPIs  & DAX Measures (As Shown in Dashboard)
 
 The dashboard displays the following KPIs **with the same naming convention used in Power BI**:
 
@@ -72,6 +72,13 @@ The dashboard displays the following KPIs **with the same naming convention used
 
 - **Sum of AOV (Order Value Metric)**  
   Represents the aggregated order value metric available in the dataset (not a calculated average).
+
+### 📐 AOV DAX Measure
+
+```
+AOV = [Amount] / [Quantity]
+```
+This measure represents the average value per unit sold and is used as a proxy metric for order value analysis.
 
 ---
 
