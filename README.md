@@ -17,7 +17,7 @@ The **Madhav Ecommerce Sales Dashboard** provides a consolidated view of ecommer
 - Customer contribution
 - Payment mode preferences
 
-The dashboard is designed to help stakeholders **quickly understand business performance and identify improvement areas**.
+This dashboard helps identify **high-performing regions, profitable product segments, and loss-making periods** to support **data-driven business decisions**.
 
 ---
 
@@ -36,8 +36,7 @@ The dashboard is designed to help stakeholders **quickly understand business per
 ## 🛠️ Tools & Technologies Used
 
 - **Power BI** – Data modeling, DAX measures, dashboard design
-- **CSV / Excel** – Data storage and preprocessing
-- **GitHub** – Version control and portfolio hosting
+- **CSV** – Raw data source and preprocessing
 
 ---
 
@@ -47,8 +46,8 @@ This project uses two datasets stored inside the `data/` folder:
 
 | Dataset Name | Description |
 |--------------|-------------|
-| `Orders.csv` | Contains order-level details such as order date, customer name, state, and payment mode |
-| `Details.csv` | Contains product-level details such as category, sub-category, quantity, amount, and profit |
+| `Orders.csv` | Contains order-level details such as order id, order date, customer name, state, and city |
+| `Details.csv` | Contains product-level details such as order id, amount, profit, quantity, category, sub-category, and payment mode |
 
 These datasets are structured for analysis and suitable for **portfolio demonstration purposes**.
 
@@ -135,6 +134,7 @@ The dashboard displays the following KPIs **with the same naming convention used
 ---
 
 ## 📁 Repository Structure
+
 ```
 madhav-ecommerce-sales-dashboard/
 │
@@ -163,5 +163,5 @@ madhav-ecommerce-sales-dashboard/
 - Business-focused dashboard design
 - Insight-driven storytelling
 - Power BI and GitHub best practices
-
+- Analytical thinking and business insight generation
 ---
