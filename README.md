@@ -135,25 +135,24 @@ The dashboard displays the following KPIs **with the same naming convention used
 ---
 
 ## 📁 Repository Structure
-
 ```
 madhav-ecommerce-sales-dashboard/
 │
 ├── data/
-│ ├── Orders.csv
-│ └── Details.csv
+│   ├── Orders.csv
+│   └── Details.csv
 │
-|
-├── dashboard/
-|
+├── images/
+│   └── dashboard_overview.png
+│
 ├── README.md
 └── .gitignore
-```
 
+```
 ---
 
 ## 📷 Dashboard Preview
-
+![Dashboard Overview](images/dashboard_overview.png)
 
 ---
 
