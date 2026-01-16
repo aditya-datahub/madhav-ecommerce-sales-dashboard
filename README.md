@@ -144,7 +144,8 @@ madhav-ecommerce-sales-dashboard/
 │ └── Details.csv
 │
 |
-├── dashboard.pdf
+├── dashboard/
+|
 ├── README.md
 └── .gitignore
 ```
