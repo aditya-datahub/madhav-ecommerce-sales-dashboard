@@ -51,6 +51,10 @@ This project uses two datasets stored inside the `data/` folder:
 
 These datasets are structured for analysis and suitable for **portfolio demonstration purposes**.
 
+### Data Model
+- One-to-Many relationship between `Orders[Order ID]` and `Details[Order ID]`
+- Enables accurate aggregation of sales, quantity, and profit metrics
+
 ---
 
 ## 📊 Key KPIs (As Shown in Dashboard)
